@@ -37,12 +37,44 @@
         document.write(username);
         document.write(username);
         document.write(username);
+        //Concatenation
+        var firstName = "Desafinados";
+        var lastname = "Blues";
+        var fullname = firstName + " " + lastname
+
+        document.write("<h1>" + fullname + "</h1>");
+        document.write("<h1>" + fullname + "</h1>");
+        document.write("<h1>" + fullname + "</h1>");
+
+        //Data types
+        //Strings and numbers
+        x = 1;
+        y = 3;
+        z = x * y;
+        document.write("<h1>" + z + "</h1>");
+        document.write("<h1>" + z + "</h1>");
+        document.write("<h1>" + z + "</h1>");
+
+        //Functions
+        var username = prompt("Hello, Who are you?");
+        //Arrays
+        var car = new Array("BMW", "Saab", "Maseratti");
+        //document.write("<h1>Hello " + username + "</h1>");
+
+        //Conditionals
+        if (username === "Armando") {
+            document.write("<h1>Hello " + username + " you won a " + car[1] + "!!!</h1>");
+        } else {
+            document.write("<h1>Hello " + username + "!</h1>");
+        }
+        console.log(car);
     </script>
 
 </head>
 
 <body>
     <h1>Desafina2 Blues</h1>
+    <img src="rolling.jfif" alt="rolling">
 </body>
 
 </html>
